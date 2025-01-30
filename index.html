@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/cdee1cb286.js" crossorigin="anonymous"></script>
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans&display=swap" rel="stylesheet">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <section class="container">
+
+        <div class="top-container">
+            <h3 data-testid="jobTitle">Frontend Developer</h3>
+            <div class="profile-image" class="flex-col">
+                <img src="profilepic.jpeg" alt="" data-testid="profilePicture">
+            </div>
+            <h1 data-testid="fullName" class="text-secondary">Adetoro Fatihah</h1>
+
+        </div>
+
+        <div class="bottom-container align-center">
+              
+    <div class="flex-row">
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+        <h3 data-testid="emailAddress">fatihaadetoro7@gmail.com</h3>
+
+        
+    </div>
+    <div class="flex-row">
+        <i class="fa fa-map-marker" aria-hidden="true"></i>
+        <h3 data-testid="currentLocation">Osun State, Nigeria.</h3>
+     </div>
+
+     <div class="flex-row" >
+        <i class="fa fa-calendar-o" aria-hidden="true"></i>
+        <h3 id="utc-time" data-testid="currentTimeUTC"></h3>
+     </div>
+
+     <p data-testid="shortBio" class="bio">I am a frontend developer with a passion for creating beautiful and functional websites. I have experience with HTML, CSS,JavaScript and React, and I am always looking to learn new technologies and techniques in my free time, I enjoy exploring new places, experiencing different cultures, and traveling to discover fresh inspirations. </p>
+    
+
+        </div>
+
+     <div data-testid="socialLinks" class=" social-links">
+        <a href="https://x.com/home"><i class="fab fa-twitter"></i></a>
+     <a href="https://www.linkedin.com/in/fatiha-adetoro-1b9b63235/"> <i class="fab fa-linkedin"></i></a>
+     <a href="https://github.com/Yetty2020/">  <i class="fab fa-github"></i></a>
+     </div>
+    </section>
+    
+  
+   
+    <script src="script.js"></script>
+</body>
+</html>
