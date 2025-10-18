@@ -87,7 +87,7 @@ i {
   line-height: 1.5;
 }
 
-section {
+article {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +115,7 @@ section {
 /* Styles for iPad portrait */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  section {
+  article {
     height: 100vh;
     padding: 2em;
   }
@@ -137,7 +137,7 @@ section {
 
 /* Desktop size */
 @media (min-width: 1024px) {
-  section {
+  article {
     height: 100%;
     overflow: hidden;
   }
@@ -169,4 +169,27 @@ section {
     border-left: solid 1px #6c584c;
     margin-left: 3em;
   }
+}
+
+
+.social-links a:focus {
+    outline: 2px solid black;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+
+:focus {
+    outline: 2px solid black;
+    outline-offset: 2px;
+}
+
+
+:focus:not(:focus-visible) {
+    outline: none;
+}
+
+:focus-visible {
+    outline: 2px solid black;
+    outline-offset: 2px;
 }
