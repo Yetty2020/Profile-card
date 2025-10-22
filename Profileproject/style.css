@@ -114,7 +114,7 @@ article {
 
 /* Styles for iPad portrait */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+/* @media (min-width: 768px) and (max-width: 1023px) {
   article {
     height: 100vh;
     padding: 2em;
@@ -192,4 +192,66 @@ article {
 :focus-visible {
     outline: 2px solid black;
     outline-offset: 2px;
+} */
+
+/* Form styling (keeps color palette consistent) */
+.form-group {
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  font-weight: 600;
+  color: #6c584c;
+  margin-bottom: 0.4rem;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.6rem;
+  border: 1px solid #6c584c;
+  border-radius: 6px;
+  font-family: inherit;
+  color: #220901;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 3px solid rgba(108, 88, 76, 0.2);
+}
+
+.error {
+  color: #b00020;
+  font-size: 0.9rem;
+  min-height: 1.2em;
+}
+
+.success {
+  color: #0b6623;
+  font-weight: 600;
+  margin-top: 0.8rem;
+}
+
+
+.btn{
+  background-color: #a98467;
+  color: #fef9ef;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  text-align: center;
+}
+
+.btn a {
+  text-decoration: none;
+}
+
+div .buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }

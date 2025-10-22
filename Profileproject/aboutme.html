@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/cdee1cb286.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <article data-testid="test-about-page" class="container">
+      <div class="top-container">
+        <h3 data-testid="jobTitle">Frontend Developer</h3>
+
+        <figure class="profile-image flex-col" data-testid="test-user-avatar">
+          <img src="profilepic.png" alt="Profile picture of Fatihah Adetoro" />
+          <figcaption>fatiha-adetoro</figcaption>
+        </figure>
+
+        <h2 data-testid="test-user-name" class="text-secondary">
+          Adetoro Fatihah
+        </h2>
+      </div>
+
+      <div class="bottom-container align-center">
+        <section data-testid="test-about-bio">
+          <h2>My Bio</h2>
+          <p>
+            I’m a frontend developer with a strong interest in crafting
+            accessible, responsive, and beautiful digital experiences. I enjoy
+            problem-solving and exploring new design patterns that make websites
+            not only functional but delightful to use.
+          </p>
+        </section>
+
+        <section data-testid="test-about-goals">
+          <h2>Goals in This Program</h2>
+          <ul>
+            <li>Strengthen my frontend development.</li>
+            <li>Build confidence with JavaScript frameworks like React.</li>
+            <li>Collaborate effectively with developers and designers.</li>
+          </ul>
+        </section>
+
+        <section data-testid="test-about-confidence">
+          <h2>Areas of Low Confidence</h2>
+          <p>
+            I’m still building confidence with backend integration and managing
+            large-scale applications, especially with complex APIs.
+          </p>
+        </section>
+
+        <section data-testid="test-about-future-note">
+          <h2>Note to My Future Self</h2>
+          <p>
+            Keep learning and never stop experimenting. Every line of code is
+            progress even when it doesn’t work the first time.
+          </p>
+        </section>
+
+        <section data-testid="test-about-extra">
+          <h2>Extra Thoughts</h2>
+          <p>
+            Creativity and persistence go hand-in-hand. Stay curious, stay
+            humble, and always be ready to learn from others.
+          </p>
+        </section>
+      </div>
+
+      <nav class="social-links" data-testid="test-user-social-links">
+        <a href="index.html" aria-label="Back to Profile"
+          ><i class="fa fa-user"></i
+        ></a>
+        <a href="contactme.html" aria-label="Go to Contact Page"
+          ><i class="fa fa-envelope"></i
+        ></a>
+      </nav>
+    </article>
+  </body>
+</html>
